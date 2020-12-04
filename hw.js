@@ -1,8 +1,8 @@
-const hw = requir('./hw.json');
+const hw = require('./hw.json');
 var average =0;
 var count=0;
-list ids;
-for(int i in hw){
+var ids;
+for(var i in hw){
 console.log(hw[i].batter );
 console.log(hw[i].topping );
 average=hw[i].ppu;
